@@ -1,0 +1,129 @@
+
+.box1{
+    width: 1850px;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center ;
+    position: relative;
+    animation:azadi ;
+    animation-duration: 5s;
+    rotate: 360deg;
+    background-image: url("flag.jpeg");
+    animation: box1;
+    animation-duration: 10s;
+
+}
+.box2{
+    width: 1850px;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center ;
+    position: absolute;
+    top: 0;
+    background-color: transparent;
+
+}
+.pic1{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: aqua;
+    animation: pic1;
+    animation-duration: 5s;
+}
+ 
+    .pic2{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: aqua;
+    animation: pic2;
+    animation-duration: 5s;
+    
+
+
+}
+.pic3{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: aqua;
+    animation: pic3;
+    animation-duration: 5s;
+
+
+}.pic4{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: aqua;
+    animation: pic4;
+    animation-duration: 5s;
+    
+
+ 
+
+}
+.pic1 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.pic2 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.pic3 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.pic4 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+@keyframes pic1 {
+    0%{
+        transform: translateX(0px) translateY(0px);
+    }
+    25%{
+        transform: translateX(1850px) translateY(0px);
+    }
+}
+
+@keyframes pic2 {
+    0%{
+        transform: translateX(0px) translateY(0px);
+    }
+    25%{
+        transform: translateX(-1850px) translateY(0px);
+    }
+}
+@keyframes pic3 {
+    0%{
+        transform: translateX(0px) translateY(0px);
+    }
+    25%{
+        transform: translateX(0px) translateY(100vh);
+    }
+}
+@keyframes pic4 {
+    0%{
+        transform: translateX(0px) translateY(0px);
+    }
+    25%{
+        transform: translateX(0px) translateY(-100vh);
+    }
+}
+@keyframes box1 {
+    from {background-image:url("flag.jpeg");}
+    to {background-image:url(azadi.png);}
+  }
